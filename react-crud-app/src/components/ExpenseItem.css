@@ -1,0 +1,53 @@
+.item {
+    max-width: 900px;
+    background-color: var(--mainWhite);
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s linear;
+}
+
+.item:hover {
+    width: 100%;
+    transform: scale(1.02);
+}
+
+.info {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expense {
+    margin-right: 2rem;
+}
+
+.amount {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1px 3px;
+}
+
+.clear-btn,
+.edit-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+
+.clear-btn {
+    color: var(--mainRed);
+}
+
+.edit-btn {
+    color: var(--mainGreen);
+}
